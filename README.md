@@ -1,66 +1,56 @@
-## Foundry
+# DAO ##(using Solidity: HardHat)
+# Getting Started
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Requirements
 
-Foundry consists of:
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [foundry](https://getfoundry.sh/)
+  - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 `
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
+## Quickstart
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
+```
+git clone https://github.com/rickymnit/dao-hh
+cd dao-hh
+forge install
+forge build
 ```
 
-### Test
+# Usage
 
-```shell
-$ forge test
+## Test
+
+```
+forge test
+```
+## Deploy
+
+I did not write deploy scripts for this project, you can if you'd like!
+
+## Estimate gas
+
+You can estimate how much gas things cost by running:
+
+```
+forge snapshot
 ```
 
-### Format
+And you'll see and output file called `.gas-snapshot`
 
-```shell
-$ forge fmt
+
+# Formatting
+
+
+To run code formatting:
+```
+forge fmt
 ```
 
-### Gas Snapshots
 
-```shell
-$ forge snapshot
-```
+# Thank you!
 
-### Anvil
 
-```shell
-$ anvil
-```
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+[![Ricky Raj Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/ricky-raj-2022umt1551/)
