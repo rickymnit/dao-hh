@@ -26,9 +26,7 @@ forge build
 ```
 forge test
 ```
-## Deploy
 
-I did not write deploy scripts for this project, you can if you'd like!
 
 ## Estimate gas
 
