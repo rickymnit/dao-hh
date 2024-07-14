@@ -1,5 +1,5 @@
 # DAO 
-##(using Solidity: HardHat)
+## (using Solidity: HardHat)
 # Getting Started
 
 ## Requirements
